@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75EB5E0418A52B07006FDCA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EB5E0318A52B07006FDCA8 /* Foundation.framework */; };
+		75EB5E0918A52B07006FDCA8 /* Baseford.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75EB5E0818A52B07006FDCA8 /* Baseford.h */; };
+		75EB5E1218A52B07006FDCA8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EB5E1118A52B07006FDCA8 /* XCTest.framework */; };
+		75EB5E1318A52B07006FDCA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EB5E0318A52B07006FDCA8 /* Foundation.framework */; };
+		75EB5E1518A52B07006FDCA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EB5E1418A52B07006FDCA8 /* UIKit.framework */; };
+		75EB5E1818A52B07006FDCA8 /* libBaseford.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EB5E0018A52B07006FDCA8 /* libBaseford.a */; };
+		75EB5E1E18A52B07006FDCA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75EB5E1C18A52B07006FDCA8 /* InfoPlist.strings */; };
+		75EB5E2018A52B07006FDCA8 /* BasefordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EB5E1F18A52B07006FDCA8 /* BasefordTests.m */; };
+		75EB5E2B18A52B4A006FDCA8 /* BSFCoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EB5E2A18A52B4A006FDCA8 /* BSFCoreGraphics.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75EB5E1618A52B07006FDCA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75EB5DF818A52B07006FDCA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75EB5DFF18A52B07006FDCA8;
+			remoteInfo = Baseford;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		75EB5DFE18A52B07006FDCA8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				75EB5E0918A52B07006FDCA8 /* Baseford.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		75EB5E0018A52B07006FDCA8 /* libBaseford.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBaseford.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EB5E0318A52B07006FDCA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75EB5E0718A52B07006FDCA8 /* Baseford-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Baseford-Prefix.pch"; sourceTree = "<group>"; };
+		75EB5E0818A52B07006FDCA8 /* Baseford.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Baseford.h; sourceTree = "<group>"; };
+		75EB5E1018A52B07006FDCA8 /* BasefordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasefordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EB5E1118A52B07006FDCA8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		75EB5E1418A52B07006FDCA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		75EB5E1B18A52B07006FDCA8 /* BasefordTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BasefordTests-Info.plist"; sourceTree = "<group>"; };
+		75EB5E1D18A52B07006FDCA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75EB5E1F18A52B07006FDCA8 /* BasefordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasefordTests.m; sourceTree = "<group>"; };
+		75EB5E2918A52B4A006FDCA8 /* BSFCoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSFCoreGraphics.h; sourceTree = "<group>"; };
+		75EB5E2A18A52B4A006FDCA8 /* BSFCoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSFCoreGraphics.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75EB5DFD18A52B07006FDCA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EB5E0418A52B07006FDCA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EB5E0D18A52B07006FDCA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EB5E1218A52B07006FDCA8 /* XCTest.framework in Frameworks */,
+				75EB5E1818A52B07006FDCA8 /* libBaseford.a in Frameworks */,
+				75EB5E1518A52B07006FDCA8 /* UIKit.framework in Frameworks */,
+				75EB5E1318A52B07006FDCA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75EB5DF718A52B07006FDCA8 = {
+			isa = PBXGroup;
+			children = (
+				75EB5E0518A52B07006FDCA8 /* Baseford */,
+				75EB5E1918A52B07006FDCA8 /* BasefordTests */,
+				75EB5E0218A52B07006FDCA8 /* Frameworks */,
+				75EB5E0118A52B07006FDCA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75EB5E0118A52B07006FDCA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75EB5E0018A52B07006FDCA8 /* libBaseford.a */,
+				75EB5E1018A52B07006FDCA8 /* BasefordTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75EB5E0218A52B07006FDCA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75EB5E0318A52B07006FDCA8 /* Foundation.framework */,
+				75EB5E1118A52B07006FDCA8 /* XCTest.framework */,
+				75EB5E1418A52B07006FDCA8 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75EB5E0518A52B07006FDCA8 /* Baseford */ = {
+			isa = PBXGroup;
+			children = (
+				75EB5E2918A52B4A006FDCA8 /* BSFCoreGraphics.h */,
+				75EB5E2A18A52B4A006FDCA8 /* BSFCoreGraphics.m */,
+				75EB5E0818A52B07006FDCA8 /* Baseford.h */,
+				75EB5E0618A52B07006FDCA8 /* Supporting Files */,
+			);
+			path = Baseford;
+			sourceTree = "<group>";
+		};
+		75EB5E0618A52B07006FDCA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75EB5E0718A52B07006FDCA8 /* Baseford-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75EB5E1918A52B07006FDCA8 /* BasefordTests */ = {
+			isa = PBXGroup;
+			children = (
+				75EB5E1F18A52B07006FDCA8 /* BasefordTests.m */,
+				75EB5E1A18A52B07006FDCA8 /* Supporting Files */,
+			);
+			path = BasefordTests;
+			sourceTree = "<group>";
+		};
+		75EB5E1A18A52B07006FDCA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75EB5E1B18A52B07006FDCA8 /* BasefordTests-Info.plist */,
+				75EB5E1C18A52B07006FDCA8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75EB5DFF18A52B07006FDCA8 /* Baseford */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75EB5E2318A52B07006FDCA8 /* Build configuration list for PBXNativeTarget "Baseford" */;
+			buildPhases = (
+				75EB5DFC18A52B07006FDCA8 /* Sources */,
+				75EB5DFD18A52B07006FDCA8 /* Frameworks */,
+				75EB5DFE18A52B07006FDCA8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Baseford;
+			productName = Baseford;
+			productReference = 75EB5E0018A52B07006FDCA8 /* libBaseford.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		75EB5E0F18A52B07006FDCA8 /* BasefordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75EB5E2618A52B07006FDCA8 /* Build configuration list for PBXNativeTarget "BasefordTests" */;
+			buildPhases = (
+				75EB5E0C18A52B07006FDCA8 /* Sources */,
+				75EB5E0D18A52B07006FDCA8 /* Frameworks */,
+				75EB5E0E18A52B07006FDCA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75EB5E1718A52B07006FDCA8 /* PBXTargetDependency */,
+			);
+			name = BasefordTests;
+			productName = BasefordTests;
+			productReference = 75EB5E1018A52B07006FDCA8 /* BasefordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75EB5DF818A52B07006FDCA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BSF;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Bitford;
+			};
+			buildConfigurationList = 75EB5DFB18A52B07006FDCA8 /* Build configuration list for PBXProject "Baseford" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75EB5DF718A52B07006FDCA8;
+			productRefGroup = 75EB5E0118A52B07006FDCA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75EB5DFF18A52B07006FDCA8 /* Baseford */,
+				75EB5E0F18A52B07006FDCA8 /* BasefordTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75EB5E0E18A52B07006FDCA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EB5E1E18A52B07006FDCA8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75EB5DFC18A52B07006FDCA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EB5E2B18A52B4A006FDCA8 /* BSFCoreGraphics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EB5E0C18A52B07006FDCA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EB5E2018A52B07006FDCA8 /* BasefordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75EB5E1718A52B07006FDCA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75EB5DFF18A52B07006FDCA8 /* Baseford */;
+			targetProxy = 75EB5E1618A52B07006FDCA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75EB5E1C18A52B07006FDCA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75EB5E1D18A52B07006FDCA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75EB5E2118A52B07006FDCA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75EB5E2218A52B07006FDCA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75EB5E2418A52B07006FDCA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Baseford.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Baseford/Baseford-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		75EB5E2518A52B07006FDCA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Baseford.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Baseford/Baseford-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		75EB5E2718A52B07006FDCA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Baseford/Baseford-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BasefordTests/BasefordTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		75EB5E2818A52B07006FDCA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Baseford/Baseford-Prefix.pch";
+				INFOPLIST_FILE = "BasefordTests/BasefordTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75EB5DFB18A52B07006FDCA8 /* Build configuration list for PBXProject "Baseford" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EB5E2118A52B07006FDCA8 /* Debug */,
+				75EB5E2218A52B07006FDCA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75EB5E2318A52B07006FDCA8 /* Build configuration list for PBXNativeTarget "Baseford" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EB5E2418A52B07006FDCA8 /* Debug */,
+				75EB5E2518A52B07006FDCA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75EB5E2618A52B07006FDCA8 /* Build configuration list for PBXNativeTarget "BasefordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EB5E2718A52B07006FDCA8 /* Debug */,
+				75EB5E2818A52B07006FDCA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75EB5DF818A52B07006FDCA8 /* Project object */;
+}
