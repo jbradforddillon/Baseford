@@ -6,4 +6,7 @@
 //  Copyright (c) 2014 Bitford. All rights reserved.
 //
 
+#import "BSFMacros.h"
 #import "BSFCoreGraphics.h"
+
+#import "NSArray+BSFTransform.h"

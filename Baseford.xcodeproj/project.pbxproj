@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75E7E50518A739B800AF2E71 /* NSArray+BSFTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E7E50418A739B800AF2E71 /* NSArray+BSFTransform.m */; };
 		75EB5E0418A52B07006FDCA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EB5E0318A52B07006FDCA8 /* Foundation.framework */; };
 		75EB5E0918A52B07006FDCA8 /* Baseford.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75EB5E0818A52B07006FDCA8 /* Baseford.h */; };
 		75EB5E1218A52B07006FDCA8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EB5E1118A52B07006FDCA8 /* XCTest.framework */; };
@@ -42,6 +43,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		75E7E50118A6C7CA00AF2E71 /* BSFMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSFMacros.h; sourceTree = "<group>"; };
+		75E7E50318A739B800AF2E71 /* NSArray+BSFTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BSFTransform.h"; sourceTree = "<group>"; };
+		75E7E50418A739B800AF2E71 /* NSArray+BSFTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BSFTransform.m"; sourceTree = "<group>"; };
 		75EB5E0018A52B07006FDCA8 /* libBaseford.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBaseford.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EB5E0318A52B07006FDCA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75EB5E0718A52B07006FDCA8 /* Baseford-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Baseford-Prefix.pch"; sourceTree = "<group>"; };
@@ -79,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75E7E50218A6C92300AF2E71 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				75E7E50318A739B800AF2E71 /* NSArray+BSFTransform.h */,
+				75E7E50418A739B800AF2E71 /* NSArray+BSFTransform.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		75EB5DF718A52B07006FDCA8 = {
 			isa = PBXGroup;
 			children = (
@@ -111,8 +124,10 @@
 		75EB5E0518A52B07006FDCA8 /* Baseford */ = {
 			isa = PBXGroup;
 			children = (
+				75E7E50218A6C92300AF2E71 /* Categories */,
 				75EB5E2918A52B4A006FDCA8 /* BSFCoreGraphics.h */,
 				75EB5E2A18A52B4A006FDCA8 /* BSFCoreGraphics.m */,
+				75E7E50118A6C7CA00AF2E71 /* BSFMacros.h */,
 				75EB5E0818A52B07006FDCA8 /* Baseford.h */,
 				75EB5E0618A52B07006FDCA8 /* Supporting Files */,
 			);
@@ -228,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75EB5E2B18A52B4A006FDCA8 /* BSFCoreGraphics.m in Sources */,
+				75E7E50518A739B800AF2E71 /* NSArray+BSFTransform.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +353,10 @@
 				DSTROOT = /tmp/Baseford.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Baseford/Baseford-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -349,7 +368,10 @@
 				DSTROOT = /tmp/Baseford.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Baseford/Baseford-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
