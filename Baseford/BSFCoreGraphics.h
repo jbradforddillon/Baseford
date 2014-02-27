@@ -9,5 +9,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 
 CGRect BSFRectFromSize(CGSize s);
+CGRect BSFRectStretch(CGRect r, CGFloat x, CGFloat y);
+CGRect BSFRectStretchIntegral(CGRect r, CGFloat x, CGFloat y);
 
 CGSize BSFSizeWithScale(CGSize s, CGFloat scale);
